@@ -9,5 +9,9 @@ public class Variables{
     System.out.println(edad);
     // Modifica a las vaiables//
     edad = 35;
+    //Impimir el resto de variables//
+    System.out.println(precio);
+    System.out.println(disponible);
+    System.out.println(genero);
   }
 }
