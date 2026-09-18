@@ -7,21 +7,22 @@ public class DetalleProductoTienda{
      boolean Disponible=true;
 
      //Imprimir el producto//
-     System.out.println("NombreProducto"+NombereProducto);
-     System.out.println("PrecioProducto"+PrecioProducto);
-     System.out.println("CantidadProducto"+CantidadProducto);
-     System.out.println("Disponible"+ Disponible);
+     System.out.println("NombreProducto="+NombreProducto);
+     System.out.println("PrecioProducto="+PrecioProducto);
+     System.out.println("CantidadProducto="+CantidadProducto);
+     System.out.println("Disponible="+ Disponible);
 
      //Modificar el producto//
      NombreProducto="Camara canon";
-     PrecioPodcuto=500.90;
-     CantidadProdcuto=0;
+     PrecioProducto=500.90;
+     CantidadProducto=0;
      Disponible=false;
 
      //Imprimir el producto//
-     System.out.println("NombreProducto"+NombereProducto);
-     System.out.println("PrecioProducto"+PrecioProducto);
-     System.out.println("CantidadProducto"+CantidadProducto);
-     System.out.println("Disponible"+ Disponible);
+     System.out.println();
+     System.out.println("NombreProducto="+NombreProducto);
+     System.out.println("PrecioProducto="+PrecioProducto);
+     System.out.println("CantidadProducto="+CantidadProducto);
+     System.out.println("Disponible="+ Disponible);
     }
 }
