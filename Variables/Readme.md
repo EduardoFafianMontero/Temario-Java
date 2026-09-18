@@ -11,6 +11,7 @@ Los ejercicios están dentro de la subcarpeta [`Ejercicios/`](./Ejercicios), cad
 - **[DetalleLibro](./Ejercicios/DetalleLibro)** — Declaración de variables de distintos tipos (texto, números, booleanos) para representar los datos de un libro y mostrarlos por consola.
 - **[Variables](./Ejercicios/Variables)** — Declaración de variables de los tipos `int`, `double`, `boolean` y `char`, acceso a su valor con `System.out.println()`, y modificación del valor de una variable ya declarada.
 - **[Practica/DetallePersona](./Ejercicios/Practica)** — Declaración de variables `String`, `int`, `double` y `char` para representar el detalle de una persona (nombre, edad, estatura, país de origen y estado civil) y mostrarlas por consola.
+- **[Reglas de nombre](./Ejercicios/Reglas%20de%20nombre)** — Qué nombres de variable son válidos en Java y cuáles, aun siendo válidos, no siguen las buenas prácticas de estilo.
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
@@ -35,4 +36,4 @@ java -cp bin NombreClase
 
 ## 🔄 Estado
 
-En progreso — 3 ejercicios hechos. Tema anterior: [`introduccion/`](../introduccion).
+En progreso — 4 ejercicios hechos. Tema anterior: [`introduccion/`](../introduccion).
