@@ -14,6 +14,7 @@ Los ejercicios están dentro de la subcarpeta [`Ejercicios/`](./Ejercicios), cad
 - **[Reglas de nombre](./Ejercicios/Reglas%20de%20nombre)** — Qué nombres de variable son válidos en Java y cuáles, aun siendo válidos, no siguen las buenas prácticas de estilo.
 - **[Tipo VAR](./Ejercicios/Tipo%20VAR)** — Inferencia de tipos con la palabra clave `var` (Java 10+): en qué se diferencia de declarar el tipo explícito.
 - **[Concatenación de cadenas](./Ejercicios/Concatenaci%C3%B3n%20de%20cadenas)** — Unir dos variables `String` en una sola con el operador `+`.
+- **[Constantes](./Ejercicios/Constantes)** — Uso de `final` para declarar constantes (valores que no pueden reasignarse), combinado con `var`.
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
@@ -38,4 +39,4 @@ java -cp bin NombreClase
 
 ## 🔄 Estado
 
-En progreso — 7 ejercicios hechos. Tema anterior: [`introduccion/`](../introduccion).
+En progreso — 8 ejercicios hechos. Tema anterior: [`introduccion/`](../introduccion).
