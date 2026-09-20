@@ -13,6 +13,7 @@ Los ejercicios están organizados por temas en subcarpetas, cada una con su prop
 | [`introduccion/`](./introduccion) | ✅ Completado | Estructura básica de una clase Java, `main`, `System.out.println()` |
 | [`Variables/`](./Variables) | 🔄 En progreso | Declaración, tipos de datos y uso de variables |
 | [`Tipos de datos/`](./Tipos%20de%20datos) | 🔄 En progreso | Tipos primitivos (`byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`) y tipos de referencia (`String`) |
+| [`Manejo de Cadenas/`](./Manejo%20de%20Cadenas) | 🔄 En progreso | Creación y concatenación de `String`, `new String()`, text blocks |
 
 *(Esta tabla se irá ampliando a medida que avance en el curso.)*
 
