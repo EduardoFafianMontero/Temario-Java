@@ -2,7 +2,7 @@
 
 ## 📌 Sobre esta carpeta
 
-Trabajo con `String` en Java: crear cadenas de dos formas distintas, concatenarlas, y cadenas multilínea con *text blocks*.
+Trabajo con `String` en Java: crearlas, concatenarlas, y acceder a caracteres concretos dentro de una cadena.
 
 Está dividida en dos subcarpetas:
 
@@ -11,29 +11,10 @@ Está dividida en dos subcarpetas:
 
 ## 📂 Ejercicios
 
-- **Cadenas** — Crea `String` como literal y con `new String()`, las concatena con espacios, y usa un *text block* (`"""`) para una cadena de varias líneas.
-
-| Variable | Cómo se crea | Valor |
-| :--- | :--- | :--- |
-| `cadena1` | Literal (`var cadena1="Hola";`) | `"Hola"` |
-| `cadena2` | `new String("Mundo")` | `"Mundo"` |
-| `cadena3` | Concatenación (`cadena1 + " " + cadena2`) | `"Hola Mundo"` |
-| `cadena4` | Text block (`"""` ... `"""`) | Texto en 2 líneas |
+- **[manejo de cadenas](./Ejercicios/manejo%20de%20cadenas)** — Crear `String` como literal y con `new String()`, concatenación y *text blocks*.
+- **[indice de cadenas](./Ejercicios/indice%20de%20cadenas)** — Acceder a un carácter concreto de una cadena por su índice con `charAt()`.
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
-
-## 💻 Compilar y ejecutar
-
-```bash
-javac Ejercicios/Cadenas.java
-java -cp Ejercicios Cadenas
-```
-
-## 📝 Notas
-
-- `var cadena1="Hola";` y `new String("Mundo")` acaban creando el mismo tipo de objeto (`String`), pero lo normal en Java es usar el literal (`"Hola"`) — `new String(...)` crea un objeto nuevo en memoria de forma innecesaria y casi nunca se usa en código real.
-- Los *text blocks* (`"""`) son una forma de escribir cadenas de varias líneas sin tener que concatenar con `\n`. Disponibles desde Java 15.
-- `cadena4` se declara pero no se llega a imprimir con `System.out.println()` — si quieres verla en consola, faltaría esa línea.
 
 ## 🔄 Estado
 
