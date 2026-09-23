@@ -1,0 +1,22 @@
+public class BusquedasdeSubcadenas{
+  public static void main(Strig[] args){
+    // Buscar subcadeas //
+    // idexOf = Devuelve el indice de la primea aparcionn de la cadena que estamos buscado //
+    var cadena1= " Hola mudo";
+    // subcadena a buscar hola //
+    var indice1= cadea1.indexOf("Hola");
+    System.out.println("idice1 ="+ idice1);
+
+    //lastIndexOf = Deveulve el indice de la ultima aparacion de la subcadena //
+    //Subcadena de Mundo
+    var indice2 =cadena1.lastIdexOf("mundo");
+    System.out.println("idice2 ="+ idice2);
+
+    // subcadena no encotrada devuelve -1 //
+        var indice3= cadea1.indexOf("java");
+        System.out.println("idice3 ="+ idice3);
+
+        var indice4 =cadena1.lastIdexOf("java");
+        System.out.println("idice4 ="+ idice4);
+  }
+}
