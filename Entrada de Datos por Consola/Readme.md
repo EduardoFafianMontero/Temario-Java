@@ -20,6 +20,12 @@ Está dividida en tres subcarpetas:
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
+## 📂 Practica
+
+- **[Recetas de cocina](./Practica/Recetas%20de%20cocina)** *(pendiente de detallar)*
+- **[Sistema de Empleo](./Practica/Sistema%20de%20Empleo)** *(pendiente de detallar)*
+- **[Sistema generador ID](./Practica/Sistema%20generador%20ID)** — Genera un ID único a partir del nombre, apellido y año de nacimiento del usuario, más un número aleatorio.
+
 ## 🔄 Estado
 
 En progreso. Tema anterior: [`Manejo de Cadenas/`](../Manejo%20de%20Cadenas).
