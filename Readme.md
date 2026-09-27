@@ -11,10 +11,11 @@ Los ejercicios están organizados por temas en subcarpetas, cada una con su prop
 | Carpeta | Estado | Contenido |
 | :--- | :--- | :--- |
 | [`introduccion/`](./introduccion) | ✅ Completado | Estructura básica de una clase Java, `main`, `System.out.println()` |
-| [`Variables/`](./Variables) | 🔄 En progreso | Declaración, tipos de datos y uso de variables |
-| [`Tipos de datos/`](./Tipos%20de%20datos) | 🔄 En progreso | Tipos primitivos (`byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`) y tipos de referencia (`String`) |
-| [`Manejo de Cadenas/`](./Manejo%20de%20Cadenas) | 🔄 En progreso | Creación y concatenación de `String`, `new String()`, text blocks |
-| [`Entrada de Datos por Consola/`](./Entrada%20de%20Datos%20por%20Consola) | 🔄 En progreso | Clase `Scanner`, conversión de tipos, lectura de distintos tipos de dato por consola |
+| [`Variables/`](./Variables) | ✅ Completado | Declaración, tipos de datos y uso de variables |
+| [`Tipos de datos/`](./Tipos%20de%20datos) | ✅ Completado | Tipos primitivos (`byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`) y tipos de referencia (`String`) |
+| [`Manejo de Cadenas/`](./Manejo%20de%20Cadenas) | ✅ Completado | Creación y concatenación de `String`, `new String()`, text blocks |
+| [`Entrada de Datos por Consola/`](./Entrada%20de%20Datos%20por%20Consola) | ✅ Completado | Clase `Scanner`, conversión de tipos, lectura de distintos tipos de dato por consola |
+| [`Operadores en Java/`](./Operadores%20en%20Java) | 🔄 En progreso | Operadores aritméticos, de comparación y lógicos |
 
 *(Esta tabla se irá ampliando a medida que avance en el curso.)*
 
