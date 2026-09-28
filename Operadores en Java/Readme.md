@@ -16,6 +16,7 @@ Está dividida en tres subcarpetas:
 - **[Operadores Unarios](./Ejercicio/Operadores%20Unarios)** — Pre y post incremento/decremento: `++a` vs `a++`, `--b` vs `b--`.
 - **[Operadores de Asignación](./Ejercicio/Operadores%20de%20Asignaci%C3%B3n)** — Asignación simple (`=`) y compuesta (`+=`, `*=`), y declarar varias variables en una línea.
 - **[Operadores de comparación](./Ejercicio/Operadores%20de%20comparaci%C3%B3n)** — Los 6 operadores de comparación: `==`, `!=`, `>`, `>=`, `<` y `<=`.
+- **[Operadores Logicos](./Ejercicio/Operadores%20Logicos)** — Los operadores lógicos `&&` (AND), `||` (OR) y `!` (NOT).
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
