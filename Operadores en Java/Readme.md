@@ -23,6 +23,7 @@ Está dividida en tres subcarpetas:
 ## 📂 Practica
 
 - **[Valor dento de un rango](./Practica/Valor%20dento%20de%20un%20rango)** — Comprobar si un valor introducido por consola está dentro de un rango, combinando `Scanner`, operadores de comparación y lógicos.
+- **[DescuenosVips](./Practica/DescuenosVips)** — Comprobar si un cliente accede a un descuento VIP según cantidad de productos y si tiene membresía, combinando `Scanner`, `final`, comparación y lógicos.
 
 ## 🔄 Estado
 
