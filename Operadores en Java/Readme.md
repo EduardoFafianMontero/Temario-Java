@@ -20,6 +20,10 @@ Está dividida en tres subcarpetas:
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
+## 📂 Practica
+
+- **[Valor dento de un rango](./Practica/Valor%20dento%20de%20un%20rango)** — Comprobar si un valor introducido por consola está dentro de un rango, combinando `Scanner`, operadores de comparación y lógicos.
+
 ## 🔄 Estado
 
 En progreso. Tema anterior: [`Entrada de Datos por Consola/`](../Entrada%20de%20Datos%20por%20Consola).
