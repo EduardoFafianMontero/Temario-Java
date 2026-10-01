@@ -26,6 +26,7 @@ Está dividida en tres subcarpetas:
 - **[DescuenosVips](./Practica/DescuenosVips)** — Comprobar si un cliente accede a un descuento VIP según cantidad de productos y si tiene membresía, combinando `Scanner`, `final`, comparación y lógicos.
 - **[Prestamo de libros](./Practica/Prestamo%20de%20libros)** — Comprobar si un usuario puede pedir un libro prestado según si tiene credencial o vive cerca de la biblioteca.
 - **[Rango de una variable](./Practica/Rango%20de%20una%20variable)** — Comprobar si un dato está dentro de un rango (1-10) y su lógica inversa (fuera de rango) con `!`.
+- **[Ticket de Venta](./Practica/Ticket%20de%20Venta)** — Calcular el subtotal, impuestos y total de una compra, e imprimir un ticket formateado con *text block* + `printf`.
 
 ## 🔄 Estado
 
