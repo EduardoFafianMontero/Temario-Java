@@ -27,6 +27,9 @@ Está dividida en tres subcarpetas:
 - **[Prestamo de libros](./Practica/Prestamo%20de%20libros)** — Comprobar si un usuario puede pedir un libro prestado según si tiene credencial o vive cerca de la biblioteca.
 - **[Rango de una variable](./Practica/Rango%20de%20una%20variable)** — Comprobar si un dato está dentro de un rango (1-10) y su lógica inversa (fuera de rango) con `!`.
 - **[Ticket de Venta](./Practica/Ticket%20de%20Venta)** — Calcular el subtotal, impuestos y total de una compra, e imprimir un ticket formateado con *text block* + `printf`.
+- **[Calculo Area de un rectangulo](./Practica/Calculo%20Area%20de%20un%20rectangulo)** *(pendiente de detallar)*
+- **[Sistema de autenticacion](./Practica/Sistema%20de%20autenticacion)** *(pendiente de detallar)*
+- **[Ticket de Venta con descueto](./Practica/Ticket%20de%20Venta%20con%20descueto)** *(pendiente de detallar — variante de Ticket de Venta con descuento añadido)*
 
 ## 🔄 Estado
 
