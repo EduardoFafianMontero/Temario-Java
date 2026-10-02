@@ -2,22 +2,33 @@
 
 ## 📌 Sobre esta carpeta
 
-Aquí voy guardando los ejercicios que hago mientras aprendo Java desde cero, siguiendo el curso de Udemy **"Universidad Java - Cero a Experto"** (+155 horas) y usando Visual Studio Code como editor. La idea es ir practicando los conceptos básicos del lenguaje poco a poco, empezando por lo más simple (imprimir texto por consola) e ir añadiendo cosas nuevas a medida que avance en el curso.
+Aquí voy guardando todo mi aprendizaje de Java, por dos vías en paralelo:
 
-Los ejercicios están organizados por temas en subcarpetas, cada una con su propio README explicando qué se cubre en ella.
+- **[`Udemy/`](./Udemy)** — Ejercicios siguiendo el curso **"Universidad Java - Cero a Experto"** (+155 horas), por mi cuenta, a 1h/día.
+- **[`Clase-DAM/`](./Clase-DAM)** — Contenido y proyectos del módulo de Programación de DAM (Fernando Wirtz), empezando por el proyecto integrador **SurfCamp Manager**.
 
-## 📂 Temario
+Cada carpeta mantiene su propio ritmo y su propia estructura interna (tema → ejercicio → README), pero comparten las mismas convenciones: cada ejercicio en su carpeta, con su `.java` y su README explicando qué practica.
+
+## 📂 Udemy
 
 | Carpeta | Estado | Contenido |
 | :--- | :--- | :--- |
-| [`introduccion/`](./introduccion) | ✅ Completado | Estructura básica de una clase Java, `main`, `System.out.println()` |
-| [`Variables/`](./Variables) | ✅ Completado | Declaración, tipos de datos y uso de variables |
-| [`Tipos de datos/`](./Tipos%20de%20datos) | ✅ Completado | Tipos primitivos (`byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`) y tipos de referencia (`String`) |
-| [`Manejo de Cadenas/`](./Manejo%20de%20Cadenas) | ✅ Completado | Creación y concatenación de `String`, `new String()`, text blocks |
-| [`Entrada de Datos por Consola/`](./Entrada%20de%20Datos%20por%20Consola) | ✅ Completado | Clase `Scanner`, conversión de tipos, lectura de distintos tipos de dato por consola |
-| [`Operadores en Java/`](./Operadores%20en%20Java) | 🔄 En progreso | Operadores aritméticos, de comparación y lógicos |
+| [`introduccion/`](./Udemy/introduccion) | ✅ Completado | Estructura básica de una clase Java, `main`, `System.out.println()` |
+| [`Variables/`](./Udemy/Variables) | ✅ Completado | Declaración, tipos de datos y uso de variables |
+| [`Tipos de datos/`](./Udemy/Tipos%20de%20datos) | ✅ Completado | Tipos primitivos (`byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`) y tipos de referencia (`String`) |
+| [`Manejo de Cadenas/`](./Udemy/Manejo%20de%20Cadenas) | ✅ Completado | Creación y concatenación de `String`, `new String()`, text blocks |
+| [`Entrada de Datos por Consola/`](./Udemy/Entrada%20de%20Datos%20por%20Consola) | ✅ Completado | Clase `Scanner`, conversión de tipos, lectura de distintos tipos de dato por consola |
+| [`Operadores en Java/`](./Udemy/Operadores%20en%20Java) | 🔄 En progreso | Operadores aritméticos, de comparación y lógicos |
 
 *(Esta tabla se irá ampliando a medida que avance en el curso.)*
+
+## 📂 Clase-DAM
+
+| Carpeta | Estado | Contenido |
+| :--- | :--- | :--- |
+| [`SurfCamp-Manager/`](./Clase-DAM/SurfCamp-Manager) | 🔄 En progreso | Proyecto integrador del primer trimestre: gestión de clases y reservas de un surf camp |
+
+*(Esta tabla se irá ampliando a medida que la clase avance con el temario oficial.)*
 
 ## 💻 Comandos básicos de terminal
 
