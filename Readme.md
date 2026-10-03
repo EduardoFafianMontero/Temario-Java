@@ -18,6 +18,7 @@ Cada carpeta mantiene su propio ritmo y su propia estructura interna (tema → e
 | [`Manejo de Cadenas/`](./Udemy/Manejo%20de%20Cadenas) | ✅ Completado | Creación y concatenación de `String`, `new String()`, text blocks |
 | [`Entrada de Datos por Consola/`](./Udemy/Entrada%20de%20Datos%20por%20Consola) | ✅ Completado | Clase `Scanner`, conversión de tipos, lectura de distintos tipos de dato por consola |
 | [`Operadores en Java/`](./Udemy/Operadores%20en%20Java) | ✅ Completado | Operadores aritméticos, de comparación, lógicos y precedencia |
+| [`Sentecias de DEcisiones en Java/`](./Udemy/Sentecias%20de%20DEcisiones%20en%20Java) | 🔄 En progreso | Sentencias condicionales: `if`, `else`, `switch` |
 
 *(Esta tabla se irá ampliando a medida que avance en el curso.)*
 
