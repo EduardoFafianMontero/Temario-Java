@@ -1,22 +1,18 @@
-import java.util.Scanner;
+import java.util.scanner;
+public class CalculoAreaRectanngulo{
+  public static void main(String[] args) {
+    System.out.println(*** Cálculo del Área de un Rectagulo ***);
+    var consola= ew Scanner(System.in);
+    System.out.print("Proporciona la base del rectangulo: ");
+    var base= Integrer.parseInt(consola.nextLine());
+    System.out.print("Proporciona la altura del rectangulo: ");
+    var altura= Integer.parseInt(consola.nextLine());
+     // Calculo del area del rectangulo //
+    var area= base * altura;
+    System.out.println("El area del rectangulo es: " + area);
 
-public class CalculoAreaRectangulo {
-    public static void main(String[] args) {
-
-        System.out.println("*** Cálculo del Área de un Rectángulo ***");
-
-        Scanner consola = new Scanner(System.in);
-
-        System.out.print("Ingrese la base: ");
-        double base = consola.nextDouble();
-
-        System.out.print("Ingrese la altura: ");
-        double altura = consola.nextDouble();
-
-        double area = base * altura;
-
-        System.out.println("El área del rectángulo es: " + area);
-
-        consola.close();
-    }
+    // Calculo del perimetro del rectangulo //
+    var perimetroRectangulo= 2 * (base + altura) * 2;
+    System.out.println("El perimetro del rectangulo es: " + perimetroRectangulo);
+  }
 }
