@@ -14,11 +14,10 @@ Cada carpeta mantiene su propio ritmo y su propia estructura interna (tema → e
 | Carpeta | Estado | Contenido |
 | :--- | :--- | :--- |
 | [`introduccion/`](./Udemy/introduccion) | ✅ Completado | Estructura básica de una clase Java, `main`, `System.out.println()` |
-| [`Variables/`](./Udemy/Variables) | ✅ Completado | Declaración, tipos de datos y uso de variables |
-| [`Tipos de datos/`](./Udemy/Tipos%20de%20datos) | ✅ Completado | Tipos primitivos (`byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`) y tipos de referencia (`String`) |
+| [`Variables/`](./Udemy/Variables) | ✅ Completado | Declaración, tipos de datos primitivos y uso de variables |
 | [`Manejo de Cadenas/`](./Udemy/Manejo%20de%20Cadenas) | ✅ Completado | Creación y concatenación de `String`, `new String()`, text blocks |
 | [`Entrada de Datos por Consola/`](./Udemy/Entrada%20de%20Datos%20por%20Consola) | ✅ Completado | Clase `Scanner`, conversión de tipos, lectura de distintos tipos de dato por consola |
-| [`Operadores en Java/`](./Udemy/Operadores%20en%20Java) | 🔄 En progreso | Operadores aritméticos, de comparación y lógicos |
+| [`Operadores en Java/`](./Udemy/Operadores%20en%20Java) | ✅ Completado | Operadores aritméticos, de comparación, lógicos y precedencia |
 
 *(Esta tabla se irá ampliando a medida que avance en el curso.)*
 

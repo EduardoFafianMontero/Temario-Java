@@ -27,10 +27,11 @@ Está dividida en tres subcarpetas:
 - **[Prestamo de libros](./Practica/Prestamo%20de%20libros)** — Comprobar si un usuario puede pedir un libro prestado según si tiene credencial o vive cerca de la biblioteca.
 - **[Rango de una variable](./Practica/Rango%20de%20una%20variable)** — Comprobar si un dato está dentro de un rango (1-10) y su lógica inversa (fuera de rango) con `!`.
 - **[Ticket de Venta](./Practica/Ticket%20de%20Venta)** — Calcular el subtotal, impuestos y total de una compra, e imprimir un ticket formateado con *text block* + `printf`.
-- **[Calculo Area de un rectangulo](./Practica/Calculo%20Area%20de%20un%20rectangulo)** *(pendiente de detallar)*
-- **[Sistema de autenticacion](./Practica/Sistema%20de%20autenticacion)** *(pendiente de detallar)*
+- **[Calculo Area de un rectangulo](./Practica/Calculo%20Area%20de%20un%20rectangulo)** — Área y perímetro de un rectángulo a partir de base y altura.
+- **[Sistema de autenticacion](./Practica/Sistema%20de%20autenticacion)** — Login simple comprobando usuario y contraseña con `.equals()`.
 - **[Ticket de Venta con descueto](./Practica/Ticket%20de%20Venta%20con%20descueto)** *(pendiente de detallar — variante de Ticket de Venta con descuento añadido)*
+- **[PrecedenciaOpeadores](./Practica/PrecedenciaOpeadores)** — Orden de precedencia de los operadores de Java, resolviendo una expresión aritmética paso a paso.
 
 ## 🔄 Estado
 
-En progreso. Tema anterior: [`Entrada de Datos por Consola/`](../Entrada%20de%20Datos%20por%20Consola).
+✅ Completado. Tema anterior: [`Entrada de Datos por Consola/`](../Entrada%20de%20Datos%20por%20Consola). Siguiente: `Sentencias de Decisión`.
