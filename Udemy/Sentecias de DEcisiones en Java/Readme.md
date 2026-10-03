@@ -18,6 +18,10 @@ Está dividida en tres subcarpetas:
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
+## 📂 Practica
+
+- **[Si un numero es positivo](./Practica/Si%20un%20numero%20es%20positivo)** — Comprobar si un número introducido por consola es positivo, negativo o cero.
+
 ## 🔄 Estado
 
 En progreso. Tema anterior: [`Operadores en Java/`](../Operadores%20en%20Java).
