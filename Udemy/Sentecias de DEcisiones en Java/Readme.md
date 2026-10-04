@@ -21,6 +21,7 @@ Está dividida en tres subcarpetas:
 ## 📂 Practica
 
 - **[Si un numero es positivo](./Practica/Si%20un%20numero%20es%20positivo)** — Comprobar si un número introducido por consola es positivo, negativo o cero.
+- **[tienda en linea conn descuento](./Practica/tienda%20en%20linea%20conn%20descuento)** — Calcular el descuento de una compra según el monto y si el cliente es miembro, e imprimir un ticket formateado.
 
 ## 🔄 Estado
 
