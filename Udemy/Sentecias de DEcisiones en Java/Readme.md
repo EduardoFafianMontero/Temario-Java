@@ -15,6 +15,7 @@ Está dividida en tres subcarpetas:
 - **[Sentecia IF](./Ejercicios/Sentecia%20IF)** — Primer uso de `if`: comprobar si una condición se cumple y ejecutar código solo en ese caso.
 - **[Sentencia If else](./Ejercicios/Sentencia%20If%20else)** — Añade `else` al `if`: cubre también el caso en que la condición no se cumple.
 - **[Sentencia IF else if else](./Ejercicios/Sentencia%20IF%20else%20if%20else)** — Encadena varias condiciones con `else if`, para cubrir más de dos caminos posibles.
+- **[Operador Ternario](./Ejercicios/Operador%20Ternario)** — El operador `?:` como forma corta de un `if`/`else`, incluido uno anidado.
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
