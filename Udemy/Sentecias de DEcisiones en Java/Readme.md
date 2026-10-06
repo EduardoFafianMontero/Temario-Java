@@ -26,6 +26,7 @@ Está dividida en tres subcarpetas:
 - **[Sistema Bancario](./Practica/Sistema%20Bancario)** — Decidir si continuar o salir del sistema usando lógica inversa con `!`.
 - **[Casa de los espejos](./Practica/Casa%20de%20los%20espejos)** — Comprobar si alguien puede entrar según su edad y si tiene miedo a la oscuridad, combinando `!` y `&&`.
 - **[Salud y Fitnes](./Practica/Salud%20y%20Fitnes)** — Calcular calorías quemadas según pasos dados, y comprobar si se alcanzó la meta diaria con un operador ternario.
+- **[Sistema de reseva de un hotel](./Practica/Sistema%20de%20reseva%20de%20un%20hotel)** — Calcular el costo de una estadía según si la habitación tiene vista al mar. *(pendiente de completar con el principio del archivo)*
 
 ## 🔄 Estado
 
