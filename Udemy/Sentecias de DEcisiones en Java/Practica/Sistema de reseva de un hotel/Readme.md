@@ -15,7 +15,6 @@ Calcula el costo total de una estadía en hotel, según los días y si la habita
 | `conVistaAlMar` | `Boolean.parseBoolean(consola.nextLine())` | Si la habitación tiene vista al mar |
 | `costoTotal` | `diasEstadia * TARIFA_DIARIA_CON_VISTA_MAR` o `..._SIN_VISTA_MAR`, según `conVistaAlMar` | — |
 
-*(Me faltan las líneas 1-8 del archivo — probablemente el `import`, el `println` inicial, y la declaración de `TARIFA_DIARIA_SIN_VISTA_MAR`. Pásame esa parte y completo la tabla y reviso si compila.)*
 
 ## 💻 Compilar y ejecutar
 
