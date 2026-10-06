@@ -25,6 +25,7 @@ Está dividida en tres subcarpetas:
 - **[tienda en linea conn descuento](./Practica/tienda%20en%20linea%20conn%20descuento)** — Calcular el descuento de una compra según el monto y si el cliente es miembro, e imprimir un ticket formateado.
 - **[Sistema Bancario](./Practica/Sistema%20Bancario)** — Decidir si continuar o salir del sistema usando lógica inversa con `!`.
 - **[Casa de los espejos](./Practica/Casa%20de%20los%20espejos)** — Comprobar si alguien puede entrar según su edad y si tiene miedo a la oscuridad, combinando `!` y `&&`.
+- **[Salud y Fitnes](./Practica/Salud%20y%20Fitnes)** — Calcular calorías quemadas según pasos dados, y comprobar si se alcanzó la meta diaria con un operador ternario.
 
 ## 🔄 Estado
 
