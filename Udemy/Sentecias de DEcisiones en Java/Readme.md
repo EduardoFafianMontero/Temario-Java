@@ -2,7 +2,7 @@
 
 ## 📌 Sobre esta carpeta
 
-Sentencias condicionales: `if`, `else` y, más adelante, `switch` — cómo hacer que el programa tome decisiones según el valor de una variable.
+Sentencias condicionales: `if`, `else`, operador ternario y `switch` — cómo hacer que el programa tome decisiones según el valor de una variable.
 
 Está dividida en tres subcarpetas:
 
@@ -16,6 +16,8 @@ Está dividida en tres subcarpetas:
 - **[Sentencia If else](./Ejercicios/Sentencia%20If%20else)** — Añade `else` al `if`: cubre también el caso en que la condición no se cumple.
 - **[Sentencia IF else if else](./Ejercicios/Sentencia%20IF%20else%20if%20else)** — Encadena varias condiciones con `else if`, para cubrir más de dos caminos posibles.
 - **[Operador Ternario](./Ejercicios/Operador%20Ternario)** — El operador `?:` como forma corta de un `if`/`else`, incluido uno anidado.
+- **[Sentecia Switch](./Ejercicios/Sentecia%20Switch)** — Primer uso de `switch` con la sintaxis clásica (`case:` + `break;`).
+- **[Mejoras sentencia Switch](./Ejercicios/Mejoras%20sentencia%20Switch)** — El mismo ejercicio con la sintaxis moderna de `switch` (`case -> ...`), sin `break`.
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
@@ -27,6 +29,9 @@ Está dividida en tres subcarpetas:
 - **[Casa de los espejos](./Practica/Casa%20de%20los%20espejos)** — Comprobar si alguien puede entrar según su edad y si tiene miedo a la oscuridad, combinando `!` y `&&`.
 - **[Salud y Fitnes](./Practica/Salud%20y%20Fitnes)** — Calcular calorías quemadas según pasos dados, y comprobar si se alcanzó la meta diaria con un operador ternario.
 - **[Sistema de reseva de un hotel](./Practica/Sistema%20de%20reseva%20de%20un%20hotel)** — Calcular el costo de una estadía según si la habitación tiene vista al mar. *(pendiente de completar con el principio del archivo)*
+- **[El mayor de dos numeros](./Practica/El%20mayor%20de%20dos%20numeros)** — Comparar dos números introducidos por consola y decir cuál es mayor (o si son iguales).
+- **[Estacion del año](./Practica/Estacion%20del%20a%C3%B1o)** — Determinar la estación del año a partir del mes, con una cadena de `if`/`else if`.
+- **[Estacion del año mejorado](./Practica/Estacion%20del%20a%C3%B1o%20mejorado)** — La misma idea que `Estacion del año`, reescrita con `switch` moderno y varios valores por `case`.
 
 ## 🔄 Estado
 
