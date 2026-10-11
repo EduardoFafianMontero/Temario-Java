@@ -24,9 +24,10 @@ ciclos for — Contar de 1 a 3 con un for, con print en una sola línea.
 Numeros Pares — Mostrar los pares con while, if y %.
 Numeros impares — Mostrar los impares con do-while, if y %.
 Numeros inversos — Cuenta atrás del 10 al 1 con do-while y contador--.
+Numeros pares con ciclo for — Los pares del 0 al 20 con for; el mismo ejercicio que Numeros Pares, sin el ciclo infinito.
 ⚠️ Error que se repite
 
-En Numeros Pares y Numeros impares el contador++ quedó dentro del if, lo que provoca un ciclo infinito. Regla: el avance va fuera de la condición.
+En Numeros Pares y Numeros impares (con while y do-while) el contador++ quedó dentro del if, lo que provoca un ciclo infinito. Regla: el avance va fuera de la condición.
 
 🔄 Estado
 
