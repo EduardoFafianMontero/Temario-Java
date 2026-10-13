@@ -52,6 +52,23 @@ Se usa cuando **sé cuántas vueltas** quiero dar; `while` y `do-while` cuando d
 | `contador++` | Suma 1 (post-incremento: usa el valor y luego suma) |
 | `contador % 2 == 0` | Es par (el resto de dividir entre 2 es 0) |
 
+## ⏭️ `break` y `continue`
+
+| Palabra | Efecto |
+| :--- | :--- |
+| `break` | Sale del ciclo inmediatamente |
+| `continue` | Salta el resto de la vuelta actual y pasa a la siguiente |
+
+```java
+for (var n = 1; n < 10; n++) {
+    if (n % 2 == 1) continue;   // salta los impares
+    if (n == 8) break;          // termina al llegar a 8
+    System.out.print(n + " ");  // 2 4 6
+}
+```
+
+⚠️ En `while` y `do-while`, un `continue` antes del avance del contador puede provocar un ciclo infinito.
+
 ## 🧰 Patrones típicos con ciclos
 
 | Patrón | Idea | Ejemplo |
