@@ -25,6 +25,7 @@ El orden siempre es **`[fila][columna]`**, y ambos índices empiezan en **0**.
 ## 📂 Ejercicios
 
 - **[Matices](./Ejercicios/Matices)** — Crear una matriz de 2x3, asignarle valores y leer algunos elementos por sus dos índices.
+- **[Recorrer una Matriz](./Ejercicios/Recorrer%20una%20Matriz)** — Recorrer toda la matriz con dos `for` anidados: uno para las filas y otro para las columnas.
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
