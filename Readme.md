@@ -27,6 +27,7 @@ El orden siempre es **`[fila][columna]`**, y ambos índices empiezan en **0**.
 - **[Matices](./Ejercicios/Matices)** — Crear una matriz de 2x3, asignarle valores y leer algunos elementos por sus dos índices.
 - **[Recorrer una Matriz](./Ejercicios/Recorrer%20una%20Matriz)** — Recorrer toda la matriz con dos `for` anidados: uno para las filas y otro para las columnas.
 - **[Sintaxis Simplificadasen Java](./Ejercicios/Sintaxis%20Simplificadasen%20Java)** — Crear la matriz con sus valores en una sola expresión y recorrerla con `.length`, sin constantes.
+- **[Introducir a Datos](./Ejercicios/Introducir%20a%20Datos)** — Pedir por consola el tamaño y los valores de una matriz con `Scanner` y dos `for` anidados, y luego imprimirla.
 
 *(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
