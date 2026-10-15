@@ -33,7 +33,7 @@ El orden siempre es **`[fila][columna]`**, y ambos índices empiezan en **0**.
 
 ## 📂 Practicas
 
-*(Pendiente de añadir.)*
+- **[Suma Diagonal de una Matriz](./Practicas/Suma%20Diagonal%20de%20una%20Matriz)** — Pedir una matriz por consola y sumar los elementos de su diagonal principal (`ren == col`).
 
 ## 🔄 Estado
 
