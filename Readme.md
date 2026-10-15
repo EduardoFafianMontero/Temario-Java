@@ -1,78 +1,39 @@
-# Java — Carpeta de aprendizaje
+# Matrices en Java
 
 ## 📌 Sobre esta carpeta
 
-Aquí voy guardando todo mi aprendizaje de Java, por dos vías en paralelo:
+Una **matriz** es un arreglo de arreglos: una tabla con **filas y columnas**. Aquí veo cómo declararla, darle valores y acceder a ellos con dos índices. Más adelante se recorrerá con dos `for` anidados.
 
-- **[`Udemy/`](./Udemy)** — Ejercicios siguiendo el curso **"Universidad Java - Cero a Experto"** (+155 horas), por mi cuenta, a 1h/día.
-- **[`Clase-DAM/`](./Clase-DAM)** — Contenido y proyectos del módulo de Programación de DAM (Fernando Wirtz), empezando por el proyecto integrador **SurfCamp Manager**.
+Está dividida en tres subcarpetas:
 
-Cada carpeta mantiene su propio ritmo y su propia estructura interna (tema → ejercicio → README), pero comparten las mismas convenciones: cada ejercicio en su carpeta, con su `.java` y su README explicando qué practica.
+- **[Ejercicios/](./Ejercicios)** — Ejercicios que sigo del curso.
+- **[Practicas/](./Practicas)** — Práctica libre sobre este tema.
+- **[Temario/](./Temario)** — Apuntes y notas de los conceptos.
 
-## 📂 Udemy
+## 🧱 Las matrices de un vistazo
 
-| Carpeta | Estado | Contenido |
+| Concepto | Ejemplo | Significado |
 | :--- | :--- | :--- |
-| [`introduccion/`](./Udemy/introduccion) | ✅ Completado | Estructura básica de una clase Java, `main`, `System.out.println()` |
-| [`Variables/`](./Udemy/Variables) | ✅ Completado | Declaración, tipos de datos primitivos y uso de variables |
-| [`Manejo de Cadenas/`](./Udemy/Manejo%20de%20Cadenas) | ✅ Completado | Creación y concatenación de `String`, `new String()`, text blocks |
-| [`Entrada de Datos por Consola/`](./Udemy/Entrada%20de%20Datos%20por%20Consola) | ✅ Completado | Clase `Scanner`, conversión de tipos, lectura de distintos tipos de dato por consola |
-| [`Operadores en Java/`](./Udemy/Operadores%20en%20Java) | ✅ Completado | Operadores aritméticos, de comparación, lógicos y precedencia |
-| [`Sentecias de DEcisiones en Java/`](./Udemy/Sentecias%20de%20DEcisiones%20en%20Java) | 🔄 En progreso | Sentencias condicionales: `if`, `else`, `switch` |
-| [`Cilcos en Java/`](./Udemy/Cilcos%20en%20Java) | ✅ Completado | Ciclos `while`, `do-while` y `for`, `break` y `continue` |
-| [`Arreglos en Java/`](./Udemy/Arreglos%20en%20Java) | ✅ Completado | Declarar, inicializar, leer, modificar e iterar arreglos |
-| [`Matrices en Java/`](./Udemy/Matrices%20en%20Java) | 🔄 En progreso | Matrices (arreglos de dos dimensiones): filas, columnas y acceso con `[fila][columna]` |
+| Declarar y crear | `new int[2][3]` | 2 filas y 3 columnas, todas a `0` |
+| Acceder | `matriz[1][2]` | Fila 1, columna 2 |
+| Modificar | `matriz[0][0] = 100;` | Cambia ese elemento |
+| Nº de filas | `matriz.length` | Cantidad de filas |
+| Nº de columnas | `matriz[0].length` | Cantidad de columnas de la fila 0 |
 
-*(Esta tabla se irá ampliando a medida que avance en el curso.)*
+El orden siempre es **`[fila][columna]`**, y ambos índices empiezan en **0**.
 
-## 📂 Clase-DAM
+## 📂 Ejercicios
 
-| Carpeta | Estado | Contenido |
-| :--- | :--- | :--- |
-| [`SurfCamp-Manager/`](./Clase-DAM/SurfCamp-Manager) | 🔄 En progreso | Proyecto integrador del primer trimestre: gestión de clases y reservas de un surf camp |
+- **[Matices](./Ejercicios/Matices)** — Crear una matriz de 2x3, asignarle valores y leer algunos elementos por sus dos índices.
+- **[Recorrer una Matriz](./Ejercicios/Recorrer%20una%20Matriz)** — Recorrer toda la matriz con dos `for` anidados: uno para las filas y otro para las columnas.
+- **[Sintaxis Simplificadasen Java](./Ejercicios/Sintaxis%20Simplificadasen%20Java)** — Crear la matriz con sus valores en una sola expresión y recorrerla con `.length`, sin constantes.
 
-*(Esta tabla se irá ampliando a medida que la clase avance con el temario oficial.)*
+*(Esta lista se irá ampliando a medida que añada más ejercicios.)*
 
-## 💻 Comandos básicos de terminal
+## 📂 Practicas
 
-```bash
-# Compilar un archivo .java (genera el .class)
-javac NombreClase.java
+*(Pendiente de añadir.)*
 
-# Compilar varios archivos .java a la vez
-javac *.java
+## 🔄 Estado
 
-# Ejecutar la clase ya compilada
-java NombreClase
-
-# Compilar indicando carpeta de salida para los .class
-javac -d bin NombreClase.java
-
-# Ejecutar especificando el classpath (carpeta donde están los .class)
-java -cp bin NombreClase
-
-# Ver la versión de Java instalada
-java -version
-javac -version
-
-# Empaquetar clases compiladas en un .jar ejecutable
-jar cfe NombreJar.jar NombreClase *.class
-
-# Ejecutar un .jar
-java -jar NombreJar.jar
-```
-
-**¿Qué hace cada uno?**
-
-- **`javac`** → El compilador de Java. Convierte el código fuente (`.java`, texto legible) en bytecode (`.class`, lo que entiende la máquina virtual de Java). Si hay errores de sintaxis, es aquí donde saltan.
-- **`java`** → El intérprete/ejecutor. Coge un `.class` ya compilado y lo ejecuta, buscando el método `main` como punto de entrada.
-- **`-d bin`** → Le dice a `javac` dónde guardar los `.class` generados (en este caso, en una carpeta llamada `bin`), en vez de dejarlos sueltos junto al `.java`.
-- **`-cp` (classpath)** → Le dice a `java` en qué carpeta(s) buscar los `.class` necesarios para ejecutar el programa. Imprescindible cuando el código y los `.class` no están en la misma carpeta.
-- **`-version`** → Muestra la versión instalada, útil para comprobar que el compilador y el ejecutor son compatibles entre sí.
-- **`jar`** → Empaqueta varios `.class` en un único archivo `.jar`, para poder compartir o ejecutar el programa sin tener que llevar todos los `.class` sueltos.
-
-## 📝 Notas generales
-
-- El nombre del archivo `.java` debe coincidir exactamente con el nombre de la clase pública que contiene.
-- Si el nombre de la clase lleva tilde o caracteres especiales, el archivo debe llamarse igual (con la tilde incluida) o puede dar problemas al compilar.
-- Cada ejercicio es una clase Java independiente, con su propio archivo `.java`, y su nombre coincide con el de la clase.
+🔄 En progreso. Tema anterior: [`Arreglos en Java/`](../Arreglos%20en%20Java).
