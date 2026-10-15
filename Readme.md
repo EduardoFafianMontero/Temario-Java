@@ -20,7 +20,8 @@ Cada carpeta mantiene su propio ritmo y su propia estructura interna (tema → e
 | [`Operadores en Java/`](./Udemy/Operadores%20en%20Java) | ✅ Completado | Operadores aritméticos, de comparación, lógicos y precedencia |
 | [`Sentecias de DEcisiones en Java/`](./Udemy/Sentecias%20de%20DEcisiones%20en%20Java) | 🔄 En progreso | Sentencias condicionales: `if`, `else`, `switch` |
 | [`Cilcos en Java/`](./Udemy/Cilcos%20en%20Java) | ✅ Completado | Ciclos `while`, `do-while` y `for`, `break` y `continue` |
-| [`Arreglos en Java/`](./Udemy/Arreglos%20en%20Java) | 🔄 En progreso | Declarar, inicializar, leer, modificar e iterar arreglos |
+| [`Arreglos en Java/`](./Udemy/Arreglos%20en%20Java) | ✅ Completado | Declarar, inicializar, leer, modificar e iterar arreglos |
+| [`Matrices en Java/`](./Udemy/Matrices%20en%20Java) | 🔄 En progreso | Matrices (arreglos de dos dimensiones): filas, columnas y acceso con `[fila][columna]` |
 
 *(Esta tabla se irá ampliando a medida que avance en el curso.)*
 
