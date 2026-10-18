@@ -1,0 +1,46 @@
+# ===== Java =====
+# Archivos compilados (se generan con javac, no se suben)
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+# Carpetas de compilación
+out/
+bin/
+target/
+build/
+
+# ===== Editores =====
+# Cursor (el editor con IA)
+.cursor/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / Eclipse / NetBeans
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+nbproject/
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Temporales y logs =====
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ===== Datos sensibles (nunca subir) =====
+.env
+.env.*
+*.key
+*.pem
