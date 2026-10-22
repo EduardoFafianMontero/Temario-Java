@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Casa de los espejos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/El mayor de dos numeros" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Estacion del año" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Estacion del año mejorado" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Salud y Fitnes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Si un numero es positivo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sistema Bancario" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sistema de reseva de un hotel" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sistemas de Calificaciones" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sistemas de autenticacion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sistemas de envios" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tienda en linea conn descuento" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

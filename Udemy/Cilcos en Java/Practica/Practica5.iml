@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Cajero Automatico" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Calculadora" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dibujar un rectangulo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Menu iterativo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Numeros Pares" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Numeros impares" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Numeros inversos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Numeros pares con ciclo for" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Palabras BReak Coninue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Suma Acumulativa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/juego de adivianzas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/validacion de Pasword" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

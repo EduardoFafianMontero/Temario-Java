@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Busqueda de subcadenas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Caracteres Especiales" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Comparación de cadenas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Concatenación de cadenas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Inmutabilidad" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Manejo Subcadenas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Método de Cadenas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Remplazar Subcadenas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/indice de cadenas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/manejo de cadenas" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

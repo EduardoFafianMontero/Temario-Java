@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Mejoras sentencia Switch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Operador Temario" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sentecia IF" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sentecia Switch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sentencia IF else if else" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sentencia If else" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
