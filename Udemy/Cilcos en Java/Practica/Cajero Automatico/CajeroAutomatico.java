@@ -1,12 +1,15 @@
 import java.util.Scanner;
 
+/**
+ *
+ */
 public class CajeroAutomatico {
     public static void main(String[] args) {
         var consola = new Scanner(System.in);
         var saldo = 1000.0;
         var salir = false;
         // Menu de la aplicación
-        while(!salir){
+        while (!salir) {
             System.out.print("""
                     *** Aplicación de Cajero Automático ***
                     Operaciones que puedes realizar:
@@ -17,16 +20,15 @@ public class CajeroAutomatico {
                     Esocoge una opcion:\s""");
             var opcion = consola.nextInt();
             // Procesamos cada caso
-            switch (opcion){
+            switch (opcion) {
                 case 1 -> System.out.printf("Tu saldo actual es: %.2f%n%n", saldo);
                 case 2 -> {
                     System.out.print("Ingresa el monto a retirar: ");
                     var retiro = consola.nextDouble();
-                    if(retiro <= saldo) {
+                    if (retiro <= saldo) {
                         saldo -= retiro; // saldo = saldo - retiro
                         System.out.printf("Tu nuevo saldo es: %.2f%n%n", saldo);
-                    }
-                    else
+                    } else
                         System.out.printf("No cuentas con el saldo suficiente. " +
                                 "Saldo actual es: %.2f%n%n", saldo);
                 }
@@ -45,3 +47,4 @@ public class CajeroAutomatico {
             }
         }
     }
+}

@@ -5,7 +5,7 @@ public class JuegoAdivinanzas {
     public static void main(String[] args) {
         System.out.println("*** Juego de Adivinanzas ***");
         var consola = new Scanner(System.in);
-        var random =o new Randm();
+        var random =o; new Randm();
 
         // Generamos un número aleatorio entre 1 y 50
         var numeroSecreto = random.nextInt(50) + 1;

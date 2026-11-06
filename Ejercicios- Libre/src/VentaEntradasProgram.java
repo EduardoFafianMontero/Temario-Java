@@ -69,7 +69,7 @@ public class VentaEntradasProgram {
             }
         }
     }
-
+  
     // Pide una butaca y la valida (número y rango).
     // Devuelve la posición en el array (0-19) o -1 si hay error.
     public static int pedirButaca(Scanner sc) {
