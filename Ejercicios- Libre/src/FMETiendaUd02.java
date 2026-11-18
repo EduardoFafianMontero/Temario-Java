@@ -92,10 +92,6 @@ public class FMETiendaUd02 {
         } while (opcion != 6);
         scanner.close();
     }
-
-    // ==========================================================
-    // APARTADO C. VER INVENTARIO
-    // ==========================================================
     // Recorre los tres arrays paralelos con un solo bucle: la posición i
     // es el mismo producto en nombres, stock y precios.
     static void verInventario(String[] nombres, int[] stock, double[] precios) {
@@ -112,11 +108,6 @@ public class FMETiendaUd02 {
             System.out.println();   // salto de línea para el siguiente producto
         }
     }
-
-    // ==========================================================
-    // APARTADO D. VENDER Y REPONER
-    // ==========================================================
-
     // Pide un nombre y lo valida (apartado F): sin espacios sobrantes,
     // no vacío y sin números. Devuelve el nombre, o null si no es válido.
     static String pedirNombre(Scanner sc) {
@@ -180,11 +171,6 @@ public class FMETiendaUd02 {
         stock[pos] += unidades;
         System.out.println("Stock actualizado: " + nombres[pos] + " tiene ahora " + stock[pos] + " unidades.");
     }
-
-    // ==========================================================
-    // APARTADO E. CONSULTAS
-    // ==========================================================
-
     // Muestra solo los productos con stock por debajo del mínimo.
     // La variable "hay" recuerda si hemos encontrado al menos uno.
     static void productosPocoStock(String[] nombres, int[] stock) {
@@ -210,12 +196,6 @@ public class FMETiendaUd02 {
         }
         return total;
     }
-
-    // ==========================================================
-    // APARTADO F. RECURSIÓN
-    // ==========================================================
-    // Cuenta las vocales de un texto SIN bucles: mira el carácter de la
-    // posición "pos" y se llama a sí mismo con la siguiente posición.
     static int contarVocales(String texto, int pos) {
         // Caso base: si hemos pasado del final, no quedan letras por mirar
         if (pos == texto.length()) {
